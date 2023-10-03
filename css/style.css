@@ -168,7 +168,7 @@
   .survey div {
     color: #333; /* Dark text color for content */
     font-size: 3vmin; /* Font size for content */
-    font-family: 'Montserrat', sans-serif; /* Font family for content */
+    font-family: 'Fira Sans', sans-serif; /* Font family for content */
     margin-top: 20px; /* Add space above the content */
     margin-left: 10%;
     margin-right : 10%;
@@ -218,7 +218,7 @@
   /* Mission Paragraph Styles */
   .mission .mission-paragraph {
     font-size: 2.5vmin; /* Font size for the mission paragraph */
-    font-family: 'Montserrat', sans-serif; /* Font family for content */
+    font-family: 'Fira Sans', sans-serif; /* Font family for content */
     margin-bottom: 3vh; /* Add space below the mission paragraph */
     margin-right: 20%;
   }
@@ -243,22 +243,23 @@
     font-size: 7vmin; /* Font size for the contact title */
     font-family: 'Montserrat', sans-serif; /* Warm and modern font family */
     margin-bottom: 20px; /* Add space below the contact title */
-    text-align: left;
+    text-align: center;
     margin-left: auto;
+    font-weight: bold;
   }
   
   /* Contact Description Styles */
   .contact .contact-description {
-    font-size: 18px; /* Font size for the contact description */
-    font-family: 'Arial', sans-serif; /* Font family for content */
+    font-size: 2vmin; /* Font size for the contact description */
+    font-family: 'Fira Sans', sans-serif; /* Font family for content */
     margin-bottom: 20px; /* Add space below the contact description */
-    text-align: left;
+    text-align: center;
   }
 
   .contact {
     background-color: #E2725B; /* Terracotta background color */
     padding: 50px; /* Add padding for spacing */
-    text-align: left; /* Center-align text */
+    text-align: center; /* Center-align text */
     color: #333; /* Dark text color for readability */
   }
   
@@ -274,7 +275,7 @@
   .contact .contact-2 {
     text-align: left; /* Left-align text within contact blocks */
     font-size: 4vmin;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
   }
   
   /* Contact Name Styles */
