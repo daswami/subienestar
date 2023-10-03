@@ -1,0 +1,301 @@
+/* Navigation Bar Styles */
+
+.header h1{
+    
+    background-color: #FFD700;
+    text-decoration: none;
+    font-size: 8vmin; /* Font size */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0 0;
+    padding: 10px 0px
+}
+.navbar {
+    background-color: #228B22; /* Vibrant gold background color */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    overflow: hidden;
+    border-bottom: 2px solid white;
+  }
+  
+  /* Navigation List Styles */
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px;
+    margin-left: 5vw;
+  }
+  
+  /* List Item Styles */
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between menu items */
+  }
+  
+  /* Anchor (Link) Styles */
+  .navbar a {
+    color: #333; /* Dark text color for readability */
+    text-decoration: none;
+    font-size: 18px; /* Font size */
+    color: white;
+    font-family: 'Montserrat', sans-serif; /* Warm and modern font family */
+    padding: 10px 20px; /* Spacing around text */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    font-weight: bold;
+
+  }
+  
+  /* Hover State for Links */
+  .navbar a:hover {
+    background-color: #FF9900; /* Vibrant orange background color on hover */
+    color: #fff; /* Text color becomes white on hover */
+    
+  }
+  
+  /* Active Link (Current Page) */
+  .navbar a.active {
+    background-color: #FF4500; /* Brighter orange for the active link */
+    color: #fff; /* Text color for the active link */
+  }
+
+  /* Mission Section Styles */
+.home {
+    background-color: #FFD700; /* Vibrant gold background color */
+    padding: 50px; /* Add padding for spacing */
+    padding-top: 10px;
+    text-align: center; /* Center-align text and button */
+    position: relative;
+  }
+  
+  /* Image Styles */
+  .home img {
+    max-width: 100%; /* Ensure the image scales properly */
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-bottom: 20px; /* Add space below the image */
+    filter: grayscale(80%); /* Apply a grayscale filter to the image */
+  }
+
+  .home img::before {
+    content: ''; /* Create a pseudo-element */
+    position: absolute; /* Position the overlay absolutely */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1); /* Semi-transparent black overlay */
+    z-index: 8; /* Place the overlay above the image */
+  }
+  
+  /* Heading Styles */
+  .home h1 {
+    color: #fff; /* White text color for the heading */
+    font-size: 6vmin; /* Font size for the mission statement */
+    font-family: 'Montserrat', sans-serif; /* Warm and modern font family */
+    position: absolute; /* Position the heading absolutely within the container */
+    top: 50%; /* Vertically center the heading */
+    left: 50%; /* Horizontally center the heading */
+    transform: translate(-50%, -50%); /* Center the heading precisely */
+    width: 90%; /* Set the width to a percentage for responsiveness */
+    z-index: 1; /* Place the text above the image */
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+  
+  /* Button Styles */
+  .home button {
+    background-color: #FF9900; /* Vibrant orange button background color */
+    color: #fff; /* Text color for the button */
+    font-size: 4vmin; /* Font size for the button text */
+    font-family: 'Montserrat', sans-serif; /* Font family for consistency */
+    padding: 2vh 4vw; /* Spacing around button text */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    font-weight: bold;
+  }
+
+  .home a {
+    color: #fff; /* Vibrant orange link color */
+    text-decoration: none;
+    font-weight: bold; /* Make the link text bold */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  /* Hover State for Links */
+  .home a:hover {
+    color: #FF9900; /* Brighter orange link color on hover */
+  }
+  
+  /* Hover State for Button */
+  .home button:hover {
+    background-color: #FF4500; /* Brighter orange button background color on hover */
+  }
+
+  /* Survey Section Styles */
+.survey {
+    background-color: #FFD700; /* Vibrant gold background color */
+    padding: 12vh; /* Add padding for spacing */
+    text-align: center; /* Center-align text and button */
+  }
+  
+  /* Heading Styles */
+  .survey h1 {
+    color: #333; /* Dark text color for readability */
+    font-size: 8vmin; /* Font size for the survey title */
+    font-family: 'Montserrat', sans-serif; /* Warm and modern font family */
+    margin-bottom: 4vh; /* Add space below the heading */
+  }
+  
+  /* Button Styles */
+  .survey button {
+    background-color: #FF9900; /* Vibrant orange button background color */
+    color: #fff; /* Text color for the button */
+    font-size: 4vmin; /* Font size for the button text */
+    font-family: 'Montserrat', sans-serif; /* Font family for consistency */
+    padding: 2vh 4vw; /* Spacing around button text */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    margin-bottom: 3vh;
+  }
+  
+  /* Hover State for Button */
+  .survey button:hover {
+    background-color: #FF4500; /* Brighter orange button background color on hover */
+  }
+  
+  /* Text Content Styles */
+  .survey div {
+    color: #333; /* Dark text color for content */
+    font-size: 3vmin; /* Font size for content */
+    font-family: 'Montserrat', sans-serif; /* Font family for content */
+    margin-top: 20px; /* Add space above the content */
+    margin-left: 10%;
+    margin-right : 10%;
+  }
+  
+  /* Link Styles */
+  .survey a {
+    color: #fff; /* Vibrant orange link color */
+    text-decoration: none;
+    font-weight: bold; /* Make the link text bold */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  /* Hover State for Links */
+  .survey a:hover {
+    color: #FF9900; /* Brighter orange link color on hover */
+  }
+/* Mission Section Styles */
+.mission {
+    background-color: #228B22; /* Deep green background color */
+    padding: 10vh; /* Add padding for spacing */
+    text-align: left; /* Center-align text */
+    color: #fff; /* White text color for readability */
+    
+  }
+
+  .mission-inside {
+    color : midnightblue;
+    font-weight: 600;
+  }
+  
+  /* Heading Styles */
+  .mission h1 {
+    font-size: 8vmin; /* Font size for the mission title */
+    font-family: 'Montserrat', sans-serif; /* Warm and modern font family */
+    margin-bottom: 4vh; /* Add space below the heading */
+  }
+  
+  /* Mission Head Styles */
+  .mission .mission-head {
+    font-size: 4vmin; /* Font size for the mission head */
+    font-family: 'Montserrat', sans-serif; /* Font family for content */
+    margin-bottom: 4vh; /* Add space below the mission head */
+    margin-right: 20%;
+  }
+  
+  /* Mission Paragraph Styles */
+  .mission .mission-paragraph {
+    font-size: 2.5vmin; /* Font size for the mission paragraph */
+    font-family: 'Montserrat', sans-serif; /* Font family for content */
+    margin-bottom: 3vh; /* Add space below the mission paragraph */
+    margin-right: 20%;
+  }
+  
+  /* Link Styles (if needed) */
+  .mission a {
+    color: #FF9900; /* Vibrant orange link color */
+    text-decoration: none;
+    font-weight: bold; /* Make the link text bold */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  /* Hover State for Links (if needed) */
+  .mission a:hover {
+    color: #FF4500; /* Brighter orange link color on hover */
+  }
+
+  /* Contact Section Styles */
+  
+  /* Contact Head Styles */
+  .contact .contact-head {
+    font-size: 7vmin; /* Font size for the contact title */
+    font-family: 'Montserrat', sans-serif; /* Warm and modern font family */
+    margin-bottom: 20px; /* Add space below the contact title */
+    text-align: left;
+    margin-left: auto;
+  }
+  
+  /* Contact Description Styles */
+  .contact .contact-description {
+    font-size: 18px; /* Font size for the contact description */
+    font-family: 'Arial', sans-serif; /* Font family for content */
+    margin-bottom: 20px; /* Add space below the contact description */
+    text-align: left;
+  }
+
+  .contact {
+    background-color: #E2725B; /* Terracotta background color */
+    padding: 50px; /* Add padding for spacing */
+    text-align: left; /* Center-align text */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  /* Contact Info Container Styles */
+  .contact .contact-info {
+    display: flex; /* Display contact information in a row */
+    justify-content: space-around; /* Center-align content horizontally */
+    gap: 30px; /* Add space between contact blocks */
+  }
+  
+  /* Individual Contact Styles (Person 1 and Person 2) */
+  .contact .contact-1,
+  .contact .contact-2 {
+    text-align: left; /* Left-align text within contact blocks */
+    font-size: 4vmin;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Contact Name Styles */
+  .contact .contact-1-name,
+  .contact .contact-2-name {
+    font-weight: bold; /* Make the contact names bold */
+  }
+  
+  /* Link Styles (Email and LinkedIn) */
+  .contact a {
+    color: #FF9900; /* Vibrant orange link color */
+    text-decoration: none;
+    font-weight: bold; /* Make the link text bold */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  /* Hover State for Links */
+  .contact a:hover {
+    color: #FF4500; /* Brighter orange link color on hover */
+  }
+  
+    
+  
+  
